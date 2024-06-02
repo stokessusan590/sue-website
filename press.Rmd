@@ -1,0 +1,50 @@
+---
+title: "Public Engagement"
+output: 
+  distill::distill_article:
+    toc: true
+    toc_float: true
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+```{css, echo=FALSE}
+.slick-slide {
+  background: transparent;
+  color: black;
+  
+}
+.slick-dots li button:before {
+  color: black; /* Change the dot color if necessary */
+}
+```
+
+```{r slidr}
+library(slickR)
+library(tidyverse)
+library(htmltools)
+
+# Load data
+slidrdata <- read.csv("data/sue-slidr2.csv", stringsAsFactors = FALSE)
+
+# Create the top carousel with images
+slickR(obj = slidrdata$uri, objLinks = slidrdata$link,
+                         width = "100%") + 
+  settings(dots = TRUE, autoplay = TRUE, autoplaySpeed = 5000, pauseOnHover = TRUE)
+
+
+
+
+```
+
+
+<br>
+
+<br>
+
+<br>
+
+
