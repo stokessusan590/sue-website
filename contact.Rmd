@@ -1,0 +1,25 @@
+---
+title: "Contact"
+---
+  
+  ```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+<i class="fas fa-envelope"></i> Email: 
+sstokes@uchicago.edu
+
+
+<i class="fas fa-map-marker-alt"></i> Office: 
+Pick Hall 504
+
+
+<i class="fas fa-building"></i> Mailing Address: 
+<br> &nbsp;&nbsp;&nbsp;&nbsp; Susan Stokes <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Department of Political Science <br>
+&nbsp;&nbsp;&nbsp;&nbsp; 5828 S. University Avenue <br>
+&nbsp;&nbsp;&nbsp;&nbsp; The University of Chicago <br>
+&nbsp;&nbsp;&nbsp;&nbsp; Chicago, IL 60637
+
+
+

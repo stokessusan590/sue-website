@@ -1,0 +1,2784 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="" xml:lang="">
+
+<head>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge,chrome=1"/>
+  <meta name="generator" content="distill" />
+
+  <style type="text/css">
+  /* Hide doc at startup (prevent jankiness while JS renders/transforms) */
+  body {
+    visibility: hidden;
+  }
+  </style>
+
+ <!--radix_placeholder_import_source-->
+ <!--/radix_placeholder_import_source-->
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css" data-origin="pandoc">
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+    color: #aaaaaa;
+  }
+pre.numberSource { margin-left: 3em; border-left: 1px solid #aaaaaa;  padding-left: 4px; }
+div.sourceCode
+  { color: #00769e; background-color: #f1f3f5; }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+code span { color: #00769e; } /* Normal */
+code span.al { color: #ad0000; } /* Alert */
+code span.an { color: #5e5e5e; } /* Annotation */
+code span.at { color: #657422; } /* Attribute */
+code span.bn { color: #ad0000; } /* BaseN */
+code span.bu { } /* BuiltIn */
+code span.cf { color: #00769e; } /* ControlFlow */
+code span.ch { color: #20794d; } /* Char */
+code span.cn { color: #8f5902; } /* Constant */
+code span.co { color: #5e5e5e; } /* Comment */
+code span.cv { color: #5e5e5e; font-style: italic; } /* CommentVar */
+code span.do { color: #5e5e5e; font-style: italic; } /* Documentation */
+code span.dt { color: #ad0000; } /* DataType */
+code span.dv { color: #ad0000; } /* DecVal */
+code span.er { color: #ad0000; } /* Error */
+code span.ex { } /* Extension */
+code span.fl { color: #ad0000; } /* Float */
+code span.fu { color: #4758ab; } /* Function */
+code span.im { } /* Import */
+code span.in { color: #5e5e5e; } /* Information */
+code span.kw { color: #00769e; } /* Keyword */
+code span.op { color: #5e5e5e; } /* Operator */
+code span.ot { color: #00769e; } /* Other */
+code span.pp { color: #ad0000; } /* Preprocessor */
+code span.sc { color: #5e5e5e; } /* SpecialChar */
+code span.ss { color: #20794d; } /* SpecialString */
+code span.st { color: #20794d; } /* String */
+code span.va { color: #111111; } /* Variable */
+code span.vs { color: #20794d; } /* VerbatimString */
+code span.wa { color: #5e5e5e; font-style: italic; } /* Warning */
+</style>
+
+
+  <!--radix_placeholder_meta_tags-->
+  <title>Susan Stokes: Articles &amp; Book Chapters</title>
+
+
+
+
+  <!--  https://developers.facebook.com/docs/sharing/webmasters#markup -->
+  <meta property="og:title" content="Susan Stokes: Articles &amp; Book Chapters"/>
+  <meta property="og:type" content="article"/>
+  <meta property="og:locale" content="en_US"/>
+  <meta property="og:site_name" content="Susan Stokes"/>
+
+  <!--  https://dev.twitter.com/cards/types/summary -->
+  <meta property="twitter:card" content="summary"/>
+  <meta property="twitter:title" content="Susan Stokes: Articles &amp; Book Chapters"/>
+
+  <!--/radix_placeholder_meta_tags-->
+  <!--radix_placeholder_rmarkdown_metadata-->
+
+  <script type="text/json" id="radix-rmarkdown-metadata">
+  {"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["title","output"]}},"value":[{"type":"character","attributes":{},"value":["Articles & Book Chapters"]},{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["distill::distill_article"]}},"value":[{"type":"list","attributes":{"names":{"type":"character","attributes":{},"value":["toc","toc_float"]}},"value":[{"type":"logical","attributes":{},"value":[true]},{"type":"logical","attributes":{},"value":[true]}]}]}]}
+  </script>
+  <!--/radix_placeholder_rmarkdown_metadata-->
+  <!--radix_placeholder_navigation_in_header-->
+  <meta name="distill:offset" content=""/>
+
+  <script type="application/javascript">
+
+    window.headroom_prevent_pin = false;
+
+    window.document.addEventListener("DOMContentLoaded", function (event) {
+
+      // initialize headroom for banner
+      var header = $('header').get(0);
+      var headerHeight = header.offsetHeight;
+      var headroom = new Headroom(header, {
+        tolerance: 5,
+        onPin : function() {
+          if (window.headroom_prevent_pin) {
+            window.headroom_prevent_pin = false;
+            headroom.unpin();
+          }
+        }
+      });
+      headroom.init();
+      if(window.location.hash)
+        headroom.unpin();
+      $(header).addClass('headroom--transition');
+
+      // offset scroll location for banner on hash change
+      // (see: https://github.com/WickyNilliams/headroom.js/issues/38)
+      window.addEventListener("hashchange", function(event) {
+        window.scrollTo(0, window.pageYOffset - (headerHeight + 25));
+      });
+
+      // responsive menu
+      $('.distill-site-header').each(function(i, val) {
+        var topnav = $(this);
+        var toggle = topnav.find('.nav-toggle');
+        toggle.on('click', function() {
+          topnav.toggleClass('responsive');
+        });
+      });
+
+      // nav dropdowns
+      $('.nav-dropbtn').click(function(e) {
+        $(this).next('.nav-dropdown-content').toggleClass('nav-dropdown-active');
+        $(this).parent().siblings('.nav-dropdown')
+           .children('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $("body").click(function(e){
+        $('.nav-dropdown-content').removeClass('nav-dropdown-active');
+      });
+      $(".nav-dropdown").click(function(e){
+        e.stopPropagation();
+      });
+    });
+  </script>
+
+  <style type="text/css">
+
+  /* Theme (user-documented overrideables for nav appearance) */
+
+  .distill-site-nav {
+    color: rgba(255, 255, 255, 0.8);
+    background-color: #0F2E3D;
+    font-size: 15px;
+    font-weight: 300;
+  }
+
+  .distill-site-nav a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  .distill-site-nav a:hover {
+    color: white;
+  }
+
+  @media print {
+    .distill-site-nav {
+      display: none;
+    }
+  }
+
+  .distill-site-header {
+
+  }
+
+  .distill-site-footer {
+
+  }
+
+
+  /* Site Header */
+
+  .distill-site-header {
+    width: 100%;
+    box-sizing: border-box;
+    z-index: 3;
+  }
+
+  .distill-site-header .nav-left {
+    display: inline-block;
+    margin-left: 8px;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header .nav-left {
+      margin-left: 0;
+    }
+  }
+
+
+  .distill-site-header .nav-right {
+    float: right;
+    margin-right: 8px;
+  }
+
+  .distill-site-header a,
+  .distill-site-header .title {
+    display: inline-block;
+    text-align: center;
+    padding: 14px 10px 14px 10px;
+  }
+
+  .distill-site-header .title {
+    font-size: 18px;
+    min-width: 150px;
+  }
+
+  .distill-site-header .logo {
+    padding: 0;
+  }
+
+  .distill-site-header .logo img {
+    display: none;
+    max-height: 20px;
+    width: auto;
+    margin-bottom: -4px;
+  }
+
+  .distill-site-header .nav-image img {
+    max-height: 18px;
+    width: auto;
+    display: inline-block;
+    margin-bottom: -3px;
+  }
+
+
+
+  @media screen and (min-width: 1000px) {
+    .distill-site-header .logo img {
+      display: inline-block;
+    }
+    .distill-site-header .nav-left {
+      margin-left: 20px;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 20px;
+    }
+    .distill-site-header .title {
+      padding-left: 12px;
+    }
+  }
+
+
+  .distill-site-header .nav-toggle {
+    display: none;
+  }
+
+  .nav-dropdown {
+    display: inline-block;
+    position: relative;
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    border: none;
+    outline: none;
+    color: rgba(255, 255, 255, 0.8);
+    padding: 16px 10px;
+    background-color: transparent;
+    font-family: inherit;
+    font-size: inherit;
+    font-weight: inherit;
+    margin: 0;
+    margin-top: 1px;
+    z-index: 2;
+  }
+
+  .nav-dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    min-width: 200px;
+    border: 1px solid rgba(0,0,0,0.15);
+    border-radius: 4px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.1);
+    z-index: 1;
+    margin-top: 2px;
+    white-space: nowrap;
+    padding-top: 4px;
+    padding-bottom: 4px;
+  }
+
+  .nav-dropdown-content hr {
+    margin-top: 4px;
+    margin-bottom: 4px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .nav-dropdown-active {
+    display: block;
+  }
+
+  .nav-dropdown-content a, .nav-dropdown-content .nav-dropdown-header {
+    color: black;
+    padding: 6px 24px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+
+  .nav-dropdown-content .nav-dropdown-header {
+    display: block;
+    padding: 5px 24px;
+    padding-bottom: 0;
+    text-transform: uppercase;
+    font-size: 14px;
+    color: #999999;
+    white-space: nowrap;
+  }
+
+  .nav-dropdown:hover .nav-dropbtn {
+    color: white;
+  }
+
+  .nav-dropdown-content a:hover {
+    background-color: #ddd;
+    color: black;
+  }
+
+  .nav-right .nav-dropdown-content {
+    margin-left: -45%;
+    right: 0;
+  }
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header a, .distill-site-header .nav-dropdown  {display: none;}
+    .distill-site-header a.nav-toggle {
+      float: right;
+      display: block;
+    }
+    .distill-site-header .title {
+      margin-left: 0;
+    }
+    .distill-site-header .nav-right {
+      margin-right: 0;
+    }
+    .distill-site-header {
+      overflow: hidden;
+    }
+    .nav-right .nav-dropdown-content {
+      margin-left: 0;
+    }
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-header.responsive {position: relative; min-height: 500px; }
+    .distill-site-header.responsive a.nav-toggle {
+      position: absolute;
+      right: 0;
+      top: 0;
+    }
+    .distill-site-header.responsive a,
+    .distill-site-header.responsive .nav-dropdown {
+      display: block;
+      text-align: left;
+    }
+    .distill-site-header.responsive .nav-left,
+    .distill-site-header.responsive .nav-right {
+      width: 100%;
+    }
+    .distill-site-header.responsive .nav-dropdown {float: none;}
+    .distill-site-header.responsive .nav-dropdown-content {position: relative;}
+    .distill-site-header.responsive .nav-dropdown .nav-dropbtn {
+      display: block;
+      width: 100%;
+      text-align: left;
+    }
+  }
+
+  /* Site Footer */
+
+  .distill-site-footer {
+    width: 100%;
+    overflow: hidden;
+    box-sizing: border-box;
+    z-index: 3;
+    margin-top: 30px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    text-align: center;
+  }
+
+  /* Headroom */
+
+  d-title {
+    padding-top: 6rem;
+  }
+
+  @media print {
+    d-title {
+      padding-top: 4rem;
+    }
+  }
+
+  .headroom {
+    z-index: 1000;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+
+  .headroom--transition {
+    transition: all .4s ease-in-out;
+  }
+
+  .headroom--unpinned {
+    top: -100px;
+  }
+
+  .headroom--pinned {
+    top: 0;
+  }
+
+  /* adjust viewport for navbar height */
+  /* helps vertically center bootstrap (non-distill) content */
+  .min-vh-100 {
+    min-height: calc(100vh - 100px) !important;
+  }
+
+  </style>
+
+  <script src="site_libs/jquery-3.6.0/jquery-3.6.0.min.js"></script>
+  <link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet"/>
+  <link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet"/>
+  <script src="site_libs/headroom-0.9.4/headroom.min.js"></script>
+  <script src="site_libs/autocomplete-0.37.1/autocomplete.min.js"></script>
+  <script src="site_libs/fuse-6.4.1/fuse.min.js"></script>
+
+  <script type="application/javascript">
+
+  function getMeta(metaName) {
+    var metas = document.getElementsByTagName('meta');
+    for (let i = 0; i < metas.length; i++) {
+      if (metas[i].getAttribute('name') === metaName) {
+        return metas[i].getAttribute('content');
+      }
+    }
+    return '';
+  }
+
+  function offsetURL(url) {
+    var offset = getMeta('distill:offset');
+    return offset ? offset + '/' + url : url;
+  }
+
+  function createFuseIndex() {
+
+    // create fuse index
+    var options = {
+      keys: [
+        { name: 'title', weight: 20 },
+        { name: 'categories', weight: 15 },
+        { name: 'description', weight: 10 },
+        { name: 'contents', weight: 5 },
+      ],
+      ignoreLocation: true,
+      threshold: 0
+    };
+    var fuse = new window.Fuse([], options);
+
+    // fetch the main search.json
+    return fetch(offsetURL('search.json'))
+      .then(function(response) {
+        if (response.status == 200) {
+          return response.json().then(function(json) {
+            // index main articles
+            json.articles.forEach(function(article) {
+              fuse.add(article);
+            });
+            // download collections and index their articles
+            return Promise.all(json.collections.map(function(collection) {
+              return fetch(offsetURL(collection)).then(function(response) {
+                if (response.status === 200) {
+                  return response.json().then(function(articles) {
+                    articles.forEach(function(article) {
+                      fuse.add(article);
+                    });
+                  })
+                } else {
+                  return Promise.reject(
+                    new Error('Unexpected status from search index request: ' +
+                              response.status)
+                  );
+                }
+              });
+            })).then(function() {
+              return fuse;
+            });
+          });
+
+        } else {
+          return Promise.reject(
+            new Error('Unexpected status from search index request: ' +
+                        response.status)
+          );
+        }
+      });
+  }
+
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+
+    // get search element (bail if we don't have one)
+    var searchEl = window.document.getElementById('distill-search');
+    if (!searchEl)
+      return;
+
+    createFuseIndex()
+      .then(function(fuse) {
+
+        // make search box visible
+        searchEl.classList.remove('hidden');
+
+        // initialize autocomplete
+        var options = {
+          autoselect: true,
+          hint: false,
+          minLength: 2,
+        };
+        window.autocomplete(searchEl, options, [{
+          source: function(query, callback) {
+            const searchOptions = {
+              isCaseSensitive: false,
+              shouldSort: true,
+              minMatchCharLength: 2,
+              limit: 10,
+            };
+            var results = fuse.search(query, searchOptions);
+            callback(results
+              .map(function(result) { return result.item; })
+            );
+          },
+          templates: {
+            suggestion: function(suggestion) {
+              var img = suggestion.preview && Object.keys(suggestion.preview).length > 0
+                ? `<img src="${offsetURL(suggestion.preview)}"</img>`
+                : '';
+              var html = `
+                <div class="search-item">
+                  <h3>${suggestion.title}</h3>
+                  <div class="search-item-description">
+                    ${suggestion.description || ''}
+                  </div>
+                  <div class="search-item-preview">
+                    ${img}
+                  </div>
+                </div>
+              `;
+              return html;
+            }
+          }
+        }]).on('autocomplete:selected', function(event, suggestion) {
+          window.location.href = offsetURL(suggestion.path);
+        });
+        // remove inline display style on autocompleter (we want to
+        // manage responsive display via css)
+        $('.algolia-autocomplete').css("display", "");
+      })
+      .catch(function(error) {
+        console.log(error);
+      });
+
+  });
+
+  </script>
+
+  <style type="text/css">
+
+  .nav-search {
+    font-size: x-small;
+  }
+
+  /* Algolioa Autocomplete */
+
+  .algolia-autocomplete {
+    display: inline-block;
+    margin-left: 10px;
+    vertical-align: sub;
+    background-color: white;
+    color: black;
+    padding: 6px;
+    padding-top: 8px;
+    padding-bottom: 0;
+    border-radius: 6px;
+    border: 1px #0F2E3D solid;
+    width: 180px;
+  }
+
+
+  @media screen and (max-width: 768px) {
+    .distill-site-nav .algolia-autocomplete {
+      display: none;
+      visibility: hidden;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete {
+      display: inline-block;
+      visibility: visible;
+    }
+    .distill-site-nav.responsive .algolia-autocomplete .aa-dropdown-menu {
+      margin-left: 0;
+      width: 400px;
+      max-height: 400px;
+    }
+  }
+
+  .algolia-autocomplete .aa-input, .algolia-autocomplete .aa-hint {
+    width: 90%;
+    outline: none;
+    border: none;
+  }
+
+  .algolia-autocomplete .aa-hint {
+    color: #999;
+  }
+  .algolia-autocomplete .aa-dropdown-menu {
+    width: 550px;
+    max-height: 70vh;
+    overflow-x: visible;
+    overflow-y: scroll;
+    padding: 5px;
+    margin-top: 3px;
+    margin-left: -150px;
+    background-color: #fff;
+    border-radius: 5px;
+    border: 1px solid #999;
+    border-top: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion {
+    cursor: pointer;
+    padding: 5px 4px;
+    border-bottom: 1px solid #eee;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion:last-of-type {
+    border-bottom: none;
+    margin-bottom: 2px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item {
+    overflow: hidden;
+    font-size: 0.8em;
+    line-height: 1.4em;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item h3 {
+    font-size: 1rem;
+    margin-block-start: 0;
+    margin-block-end: 5px;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-description {
+    display: inline-block;
+    overflow: hidden;
+    height: 2.8em;
+    width: 80%;
+    margin-right: 4%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview {
+    display: inline-block;
+    width: 15%;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img {
+    height: 3em;
+    width: auto;
+    display: none;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion .search-item-preview img[src] {
+    display: initial;
+  }
+
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion.aa-cursor {
+    background-color: #eee;
+  }
+  .algolia-autocomplete .aa-dropdown-menu .aa-suggestion em {
+    font-weight: bold;
+    font-style: normal;
+  }
+
+  </style>
+
+
+  <!--/radix_placeholder_navigation_in_header-->
+  <!--radix_placeholder_distill-->
+
+  <style type="text/css">
+
+  body {
+    background-color: white;
+  }
+
+  .pandoc-table {
+    width: 100%;
+  }
+
+  .pandoc-table>caption {
+    margin-bottom: 10px;
+  }
+
+  .pandoc-table th:not([align]) {
+    text-align: left;
+  }
+
+  .pagedtable-footer {
+    font-size: 15px;
+  }
+
+  d-byline .byline {
+    grid-template-columns: 2fr 2fr;
+  }
+
+  d-byline .byline h3 {
+    margin-block-start: 1.5em;
+  }
+
+  d-byline .byline .authors-affiliations h3 {
+    margin-block-start: 0.5em;
+  }
+
+  .authors-affiliations .orcid-id {
+    width: 16px;
+    height:16px;
+    margin-left: 4px;
+    margin-right: 4px;
+    vertical-align: middle;
+    padding-bottom: 2px;
+  }
+
+  d-title .dt-tags {
+    margin-top: 1em;
+    grid-column: text;
+  }
+
+  .dt-tags .dt-tag {
+    text-decoration: none;
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0em 0.4em;
+    margin-right: 0.5em;
+    margin-bottom: 0.4em;
+    font-size: 70%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  d-article table.gt_table td,
+  d-article table.gt_table th {
+    border-bottom: none;
+    font-size: 100%;
+  }
+
+  .html-widget {
+    margin-bottom: 2.0em;
+  }
+
+  .l-screen-inset {
+    padding-right: 16px;
+  }
+
+  .l-screen .caption {
+    margin-left: 10px;
+  }
+
+  .shaded {
+    background: rgb(247, 247, 247);
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .html-widget {
+    margin-bottom: 0;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .shaded .shaded-content {
+    background: white;
+  }
+
+  .text-output {
+    margin-top: 0;
+    line-height: 1.5em;
+  }
+
+  .hidden {
+    display: none !important;
+  }
+
+  d-article {
+    padding-top: 2.5rem;
+    padding-bottom: 30px;
+  }
+
+  d-appendix {
+    padding-top: 30px;
+  }
+
+  d-article>p>img {
+    width: 100%;
+  }
+
+  d-article h2 {
+    margin: 1rem 0 1.5rem 0;
+  }
+
+  d-article h3 {
+    margin-top: 1.5rem;
+  }
+
+  d-article iframe {
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    margin-bottom: 2.0em;
+    width: 100%;
+  }
+
+  /* Tweak code blocks */
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  }
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: auto;
+  }
+
+  d-article div.sourceCode {
+    background-color: white;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 10px;
+    font-size: 12px;
+    border-left: 2px solid rgba(0,0,0,0.1);
+  }
+
+  d-article pre {
+    font-size: 12px;
+    color: black;
+    background: none;
+    margin-top: 0;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  d-article pre a {
+    border-bottom: none;
+  }
+
+  d-article pre a:hover {
+    border-bottom: none;
+    text-decoration: underline;
+  }
+
+  d-article details {
+    grid-column: text;
+    margin-bottom: 0.8em;
+  }
+
+  @media(min-width: 768px) {
+
+  d-article pre,
+  d-article div.sourceCode,
+  d-article div.sourceCode pre {
+    overflow: visible !important;
+  }
+
+  d-article div.sourceCode pre {
+    padding-left: 18px;
+    font-size: 14px;
+  }
+
+  d-article pre {
+    font-size: 14px;
+  }
+
+  }
+
+  figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  /* CSS for d-contents */
+
+  .d-contents {
+    grid-column: text;
+    color: rgba(0,0,0,0.8);
+    font-size: 0.9em;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    padding-bottom: 0.5em;
+    margin-bottom: 1em;
+    padding-left: 0.25em;
+    justify-self: start;
+  }
+
+  @media(min-width: 1000px) {
+    .d-contents.d-contents-float {
+      height: 0;
+      grid-column-start: 1;
+      grid-column-end: 4;
+      justify-self: center;
+      padding-right: 3em;
+      padding-left: 2em;
+    }
+  }
+
+  .d-contents nav h3 {
+    font-size: 18px;
+    margin-top: 0;
+    margin-bottom: 1em;
+  }
+
+  .d-contents li {
+    list-style-type: none
+  }
+
+  .d-contents nav > ul {
+    padding-left: 0;
+  }
+
+  .d-contents ul {
+    padding-left: 1em
+  }
+
+  .d-contents nav ul li {
+    margin-top: 0.6em;
+    margin-bottom: 0.2em;
+  }
+
+  .d-contents nav a {
+    font-size: 13px;
+    border-bottom: none;
+    text-decoration: none
+    color: rgba(0, 0, 0, 0.8);
+  }
+
+  .d-contents nav a:hover {
+    text-decoration: underline solid rgba(0, 0, 0, 0.6)
+  }
+
+  .d-contents nav > ul > li > a {
+    font-weight: 600;
+  }
+
+  .d-contents nav > ul > li > ul {
+    font-weight: inherit;
+  }
+
+  .d-contents nav > ul > li > ul > li {
+    margin-top: 0.2em;
+  }
+
+
+  .d-contents nav ul {
+    margin-top: 0;
+    margin-bottom: 0.25em;
+  }
+
+  .d-article-with-toc h2:nth-child(2) {
+    margin-top: 0;
+  }
+
+
+  /* Figure */
+
+  .figure {
+    position: relative;
+    margin-bottom: 2.5em;
+    margin-top: 1.5em;
+  }
+
+  .figure .caption {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 12px;
+    line-height: 1.5em;
+  }
+
+  .figure img.external {
+    background: white;
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.1);
+    padding: 18px;
+    box-sizing: border-box;
+  }
+
+  .figure .caption a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .figure .caption b,
+  .figure .caption strong, {
+    font-weight: 600;
+    color: rgba(0, 0, 0, 1.0);
+  }
+
+  /* Citations */
+
+  d-article .citation {
+    color: inherit;
+    cursor: inherit;
+  }
+
+  div.hanging-indent{
+    margin-left: 1em; text-indent: -1em;
+  }
+
+  /* Citation hover box */
+
+  .tippy-box[data-theme~=light-border] {
+    background-color: rgba(250, 250, 250, 0.95);
+  }
+
+  .tippy-content > p {
+    margin-bottom: 0;
+    padding: 2px;
+  }
+
+
+  /* Tweak 1000px media break to show more text */
+
+  @media(min-width: 1000px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 80px [middle-start] 50px [text-start kicker-end] 65px 65px 65px 65px 65px 65px 65px 65px [text-end gutter-start] 65px [middle-end] 65px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 16px;
+    }
+
+    .grid {
+      grid-column-gap: 16px;
+    }
+
+    d-article {
+      font-size: 1.06rem;
+      line-height: 1.7em;
+    }
+    figure .caption, .figure .caption, figure figcaption {
+      font-size: 13px;
+    }
+  }
+
+  @media(min-width: 1180px) {
+    .base-grid,
+    distill-header,
+    d-title,
+    d-abstract,
+    d-article,
+    d-appendix,
+    distill-appendix,
+    d-byline,
+    d-footnote-list,
+    d-citation-list,
+    distill-footer {
+      grid-template-columns: [screen-start] 1fr [page-start kicker-start] 60px [middle-start] 60px [text-start kicker-end] 60px 60px 60px 60px 60px 60px 60px 60px [text-end gutter-start] 60px [middle-end] 60px [page-end gutter-end] 1fr [screen-end];
+      grid-column-gap: 32px;
+    }
+
+    .grid {
+      grid-column-gap: 32px;
+    }
+  }
+
+
+  /* Get the citation styles for the appendix (not auto-injected on render since
+     we do our own rendering of the citation appendix) */
+
+  d-appendix .citation-appendix,
+  .d-appendix .citation-appendix {
+    font-size: 11px;
+    line-height: 15px;
+    border-left: 1px solid rgba(0, 0, 0, 0.1);
+    padding-left: 18px;
+    border: 1px solid rgba(0,0,0,0.1);
+    background: rgba(0, 0, 0, 0.02);
+    padding: 10px 18px;
+    border-radius: 3px;
+    color: rgba(150, 150, 150, 1);
+    overflow: hidden;
+    margin-top: -12px;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+  }
+
+  /* Include appendix styles here so they can be overridden */
+
+  d-appendix {
+    contain: layout style;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-top: 60px;
+    margin-bottom: 0;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+    color: rgba(0,0,0,0.5);
+    padding-top: 60px;
+    padding-bottom: 48px;
+  }
+
+  d-appendix h3 {
+    grid-column: page-start / text-start;
+    font-size: 15px;
+    font-weight: 500;
+    margin-top: 1em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.65);
+  }
+
+  d-appendix h3 + * {
+    margin-top: 1em;
+  }
+
+  d-appendix ol {
+    padding: 0 0 0 15px;
+  }
+
+  @media (min-width: 768px) {
+    d-appendix ol {
+      padding: 0 0 0 30px;
+      margin-left: -30px;
+    }
+  }
+
+  d-appendix li {
+    margin-bottom: 1em;
+  }
+
+  d-appendix a {
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  d-appendix > * {
+    grid-column: text;
+  }
+
+  d-appendix > d-footnote-list,
+  d-appendix > d-citation-list,
+  d-appendix > distill-appendix {
+    grid-column: screen;
+  }
+
+  /* Include footnote styles here so they can be overridden */
+
+  d-footnote-list {
+    contain: layout style;
+  }
+
+  d-footnote-list > * {
+    grid-column: text;
+  }
+
+  d-footnote-list a.footnote-backlink {
+    color: rgba(0,0,0,0.3);
+    padding-left: 0.5em;
+  }
+
+
+
+  /* Anchor.js */
+
+  .anchorjs-link {
+    /*transition: all .25s linear; */
+    text-decoration: none;
+    border-bottom: none;
+  }
+  *:hover > .anchorjs-link {
+    margin-left: -1.125em !important;
+    text-decoration: none;
+    border-bottom: none;
+  }
+
+  /* Social footer */
+
+  .social_footer {
+    margin-top: 30px;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.67);
+  }
+
+  .disqus-comments {
+    margin-right: 30px;
+  }
+
+  .disqus-comment-count {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+    cursor: pointer;
+  }
+
+  #disqus_thread {
+    margin-top: 30px;
+  }
+
+  .article-sharing a {
+    border-bottom: none;
+    margin-right: 8px;
+  }
+
+  .article-sharing a:hover {
+    border-bottom: none;
+  }
+
+  .sidebar-section.subscribe {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .subscribe p {
+    margin-bottom: 0.5em;
+  }
+
+
+  .article-footer .subscribe {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+
+
+  .sidebar-section.custom {
+    font-size: 12px;
+    line-height: 1.6em;
+  }
+
+  .custom p {
+    margin-bottom: 0.5em;
+  }
+
+  /* Styles for listing layout (hide title) */
+  .layout-listing d-title, .layout-listing .d-title {
+    display: none;
+  }
+
+  /* Styles for posts lists (not auto-injected) */
+
+
+  .posts-with-sidebar {
+    padding-left: 45px;
+    padding-right: 45px;
+  }
+
+  .posts-list .description h2,
+  .posts-list .description p {
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  .posts-list .description h2 {
+    font-weight: 700;
+    border-bottom: none;
+    padding-bottom: 0;
+  }
+
+  .posts-list h2.post-tag {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    padding-bottom: 12px;
+  }
+  .posts-list {
+    margin-top: 60px;
+    margin-bottom: 24px;
+  }
+
+  .posts-list .post-preview {
+    text-decoration: none;
+    overflow: hidden;
+    display: block;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+    padding: 24px 0;
+  }
+
+  .post-preview-last {
+    border-bottom: none !important;
+  }
+
+  .posts-list .posts-list-caption {
+    grid-column: screen;
+    font-weight: 400;
+  }
+
+  .posts-list .post-preview h2 {
+    margin: 0 0 6px 0;
+    line-height: 1.2em;
+    font-style: normal;
+    font-size: 24px;
+  }
+
+  .posts-list .post-preview p {
+    margin: 0 0 12px 0;
+    line-height: 1.4em;
+    font-size: 16px;
+  }
+
+  .posts-list .post-preview .thumbnail {
+    box-sizing: border-box;
+    margin-bottom: 24px;
+    position: relative;
+    max-width: 500px;
+  }
+  .posts-list .post-preview img {
+    width: 100%;
+    display: block;
+  }
+
+  .posts-list .metadata {
+    font-size: 12px;
+    line-height: 1.4em;
+    margin-bottom: 18px;
+  }
+
+  .posts-list .metadata > * {
+    display: inline-block;
+  }
+
+  .posts-list .metadata .publishedDate {
+    margin-right: 2em;
+  }
+
+  .posts-list .metadata .dt-authors {
+    display: block;
+    margin-top: 0.3em;
+    margin-right: 2em;
+  }
+
+  .posts-list .dt-tags {
+    display: block;
+    line-height: 1em;
+  }
+
+  .posts-list .dt-tags .dt-tag {
+    display: inline-block;
+    color: rgba(0,0,0,0.6);
+    padding: 0.3em 0.4em;
+    margin-right: 0.2em;
+    margin-bottom: 0.4em;
+    font-size: 60%;
+    border: 1px solid rgba(0,0,0,0.2);
+    border-radius: 3px;
+    text-transform: uppercase;
+    font-weight: 500;
+  }
+
+  .posts-list img {
+    opacity: 1;
+  }
+
+  .posts-list img[data-src] {
+    opacity: 0;
+  }
+
+  .posts-more {
+    clear: both;
+  }
+
+
+  .posts-sidebar {
+    font-size: 16px;
+  }
+
+  .posts-sidebar h3 {
+    font-size: 16px;
+    margin-top: 0;
+    margin-bottom: 0.5em;
+    font-weight: 400;
+    text-transform: uppercase;
+  }
+
+  .sidebar-section {
+    margin-bottom: 30px;
+  }
+
+  .categories ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .categories li {
+    color: rgba(0, 0, 0, 0.8);
+    margin-bottom: 0;
+  }
+
+  .categories li>a {
+    border-bottom: none;
+  }
+
+  .categories li>a:hover {
+    border-bottom: 1px solid rgba(0, 0, 0, 0.4);
+  }
+
+  .categories .active {
+    font-weight: 600;
+  }
+
+  .categories .category-count {
+    color: rgba(0, 0, 0, 0.4);
+  }
+
+
+  @media(min-width: 768px) {
+    .posts-list .post-preview h2 {
+      font-size: 26px;
+    }
+    .posts-list .post-preview .thumbnail {
+      float: right;
+      width: 30%;
+      margin-bottom: 0;
+    }
+    .posts-list .post-preview .description {
+      float: left;
+      width: 45%;
+    }
+    .posts-list .post-preview .metadata {
+      float: left;
+      width: 20%;
+      margin-top: 8px;
+    }
+    .posts-list .post-preview p {
+      margin: 0 0 12px 0;
+      line-height: 1.5em;
+      font-size: 16px;
+    }
+    .posts-with-sidebar .posts-list {
+      float: left;
+      width: 75%;
+    }
+    .posts-with-sidebar .posts-sidebar {
+      float: right;
+      width: 20%;
+      margin-top: 60px;
+      padding-top: 24px;
+      padding-bottom: 24px;
+    }
+  }
+
+
+  /* Improve display for browsers without grid (IE/Edge <= 15) */
+
+  .downlevel {
+    line-height: 1.6em;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    margin: 0;
+  }
+
+  .downlevel .d-title {
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+  }
+
+  .downlevel .d-title h1 {
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 1.1em;
+    margin: 0 0 0.5rem;
+  }
+
+  .downlevel .d-title p {
+    font-weight: 300;
+    font-size: 1.2rem;
+    line-height: 1.55em;
+    margin-top: 0;
+  }
+
+  .downlevel .d-byline {
+    padding-top: 0.8em;
+    padding-bottom: 0.8em;
+    font-size: 0.8rem;
+    line-height: 1.8em;
+  }
+
+  .downlevel .section-separator {
+    border: none;
+    border-top: 1px solid rgba(0, 0, 0, 0.1);
+  }
+
+  .downlevel .d-article {
+    font-size: 1.06rem;
+    line-height: 1.7em;
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+  }
+
+
+  .downlevel .d-appendix {
+    padding-left: 0;
+    padding-right: 0;
+    max-width: none;
+    font-size: 0.8em;
+    line-height: 1.7em;
+    margin-bottom: 0;
+    color: rgba(0,0,0,0.5);
+    padding-top: 40px;
+    padding-bottom: 48px;
+  }
+
+  .downlevel .footnotes ol {
+    padding-left: 13px;
+  }
+
+  .downlevel .base-grid,
+  .downlevel .distill-header,
+  .downlevel .d-title,
+  .downlevel .d-abstract,
+  .downlevel .d-article,
+  .downlevel .d-appendix,
+  .downlevel .distill-appendix,
+  .downlevel .d-byline,
+  .downlevel .d-footnote-list,
+  .downlevel .d-citation-list,
+  .downlevel .distill-footer,
+  .downlevel .appendix-bottom,
+  .downlevel .posts-container {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+
+  @media(min-width: 768px) {
+    .downlevel .base-grid,
+    .downlevel .distill-header,
+    .downlevel .d-title,
+    .downlevel .d-abstract,
+    .downlevel .d-article,
+    .downlevel .d-appendix,
+    .downlevel .distill-appendix,
+    .downlevel .d-byline,
+    .downlevel .d-footnote-list,
+    .downlevel .d-citation-list,
+    .downlevel .distill-footer,
+    .downlevel .appendix-bottom,
+    .downlevel .posts-container {
+    padding-left: 150px;
+    padding-right: 150px;
+    max-width: 900px;
+  }
+  }
+
+  .downlevel pre code {
+    display: block;
+    border-left: 2px solid rgba(0, 0, 0, .1);
+    padding: 0 0 0 20px;
+    font-size: 14px;
+  }
+
+  .downlevel code, .downlevel pre {
+    color: black;
+    background: none;
+    font-family: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    text-align: left;
+    white-space: pre;
+    word-spacing: normal;
+    word-break: normal;
+    word-wrap: normal;
+    line-height: 1.5;
+
+    -moz-tab-size: 4;
+    -o-tab-size: 4;
+    tab-size: 4;
+
+    -webkit-hyphens: none;
+    -moz-hyphens: none;
+    -ms-hyphens: none;
+    hyphens: none;
+  }
+
+  .downlevel .posts-list .post-preview {
+    color: inherit;
+  }
+
+
+
+  </style>
+
+  <script type="application/javascript">
+
+  function is_downlevel_browser() {
+    if (bowser.isUnsupportedBrowser({ msie: "12", msedge: "16"},
+                                   window.navigator.userAgent)) {
+      return true;
+    } else {
+      return window.load_distill_framework === undefined;
+    }
+  }
+
+  // show body when load is complete
+  function on_load_complete() {
+
+    // add anchors
+    if (window.anchors) {
+      window.anchors.options.placement = 'left';
+      window.anchors.add('d-article > h2, d-article > h3, d-article > h4, d-article > h5');
+    }
+
+
+    // set body to visible
+    document.body.style.visibility = 'visible';
+
+    // force redraw for leaflet widgets
+    if (window.HTMLWidgets) {
+      var maps = window.HTMLWidgets.findAll(".leaflet");
+      $.each(maps, function(i, el) {
+        var map = this.getMap();
+        map.invalidateSize();
+        map.eachLayer(function(layer) {
+          if (layer instanceof L.TileLayer)
+            layer.redraw();
+        });
+      });
+    }
+
+    // trigger 'shown' so htmlwidgets resize
+    $('d-article').trigger('shown');
+  }
+
+  function init_distill() {
+
+    init_common();
+
+    // create front matter
+    var front_matter = $('<d-front-matter></d-front-matter>');
+    $('#distill-front-matter').wrap(front_matter);
+
+    // create d-title
+    $('.d-title').changeElementType('d-title');
+
+    // create d-byline
+    var byline = $('<d-byline></d-byline>');
+    $('.d-byline').replaceWith(byline);
+
+    // create d-article
+    var article = $('<d-article></d-article>');
+    $('.d-article').wrap(article).children().unwrap();
+
+    // move posts container into article
+    $('.posts-container').appendTo($('d-article'));
+
+    // create d-appendix
+    $('.d-appendix').changeElementType('d-appendix');
+
+    // flag indicating that we have appendix items
+    var appendix = $('.appendix-bottom').children('h3').length > 0;
+
+    // replace footnotes with <d-footnote>
+    $('.footnote-ref').each(function(i, val) {
+      appendix = true;
+      var href = $(this).attr('href');
+      var id = href.replace('#', '');
+      var fn = $('#' + id);
+      var fn_p = $('#' + id + '>p');
+      fn_p.find('.footnote-back').remove();
+      var text = fn_p.html();
+      var dtfn = $('<d-footnote></d-footnote>');
+      dtfn.html(text);
+      $(this).replaceWith(dtfn);
+    });
+    // remove footnotes
+    $('.footnotes').remove();
+
+    // move refs into #references-listing
+    $('#references-listing').replaceWith($('#refs'));
+
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      var id = $(this).attr('id');
+      $('.d-contents a[href="#' + id + '"]').parent().remove();
+      appendix = true;
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('d-appendix'));
+    });
+
+    // show d-appendix if we have appendix content
+    $("d-appendix").css('display', appendix ? 'grid' : 'none');
+
+    // localize layout chunks to just output
+    $('.layout-chunk').each(function(i, val) {
+
+      // capture layout
+      var layout = $(this).attr('data-layout');
+
+      // apply layout to markdown level block elements
+      var elements = $(this).children().not('details, div.sourceCode, pre, script');
+      elements.each(function(i, el) {
+        var layout_div = $('<div class="' + layout + '"></div>');
+        if (layout_div.hasClass('shaded')) {
+          var shaded_content = $('<div class="shaded-content"></div>');
+          $(this).wrap(shaded_content);
+          $(this).parent().wrap(layout_div);
+        } else {
+          $(this).wrap(layout_div);
+        }
+      });
+
+
+      // unwrap the layout-chunk div
+      $(this).children().unwrap();
+    });
+
+    // remove code block used to force  highlighting css
+    $('.distill-force-highlighting-css').parent().remove();
+
+    // remove empty line numbers inserted by pandoc when using a
+    // custom syntax highlighting theme
+    $('code.sourceCode a:empty').remove();
+
+    // load distill framework
+    load_distill_framework();
+
+    // wait for window.distillRunlevel == 4 to do post processing
+    function distill_post_process() {
+
+      if (!window.distillRunlevel || window.distillRunlevel < 4)
+        return;
+
+      // hide author/affiliations entirely if we have no authors
+      var front_matter = JSON.parse($("#distill-front-matter").html());
+      var have_authors = front_matter.authors && front_matter.authors.length > 0;
+      if (!have_authors)
+        $('d-byline').addClass('hidden');
+
+      // article with toc class
+      $('.d-contents').parent().addClass('d-article-with-toc');
+
+      // strip links that point to #
+      $('.authors-affiliations').find('a[href="#"]').removeAttr('href');
+
+      // add orcid ids
+      $('.authors-affiliations').find('.author').each(function(i, el) {
+        var orcid_id = front_matter.authors[i].orcidID;
+        if (orcid_id) {
+          var a = $('<a></a>');
+          a.attr('href', 'https://orcid.org/' + orcid_id);
+          var img = $('<img></img>');
+          img.addClass('orcid-id');
+          img.attr('alt', 'ORCID ID');
+          img.attr('src','data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg==');
+          a.append(img);
+          $(this).append(a);
+        }
+      });
+
+      // hide elements of author/affiliations grid that have no value
+      function hide_byline_column(caption) {
+        $('d-byline').find('h3:contains("' + caption + '")').parent().css('visibility', 'hidden');
+      }
+
+      // affiliations
+      var have_affiliations = false;
+      for (var i = 0; i<front_matter.authors.length; ++i) {
+        var author = front_matter.authors[i];
+        if (author.affiliation !== "&nbsp;") {
+          have_affiliations = true;
+          break;
+        }
+      }
+      if (!have_affiliations)
+        $('d-byline').find('h3:contains("Affiliations")').css('visibility', 'hidden');
+
+      // published date
+      if (!front_matter.publishedDate)
+        hide_byline_column("Published");
+
+      // document object identifier
+      var doi = $('d-byline').find('h3:contains("DOI")');
+      var doi_p = doi.next().empty();
+      if (!front_matter.doi) {
+        // if we have a citation and valid citationText then link to that
+        if ($('#citation').length > 0 && front_matter.citationText) {
+          doi.html('Citation');
+          $('<a href="#citation"></a>')
+            .text(front_matter.citationText)
+            .appendTo(doi_p);
+        } else {
+          hide_byline_column("DOI");
+        }
+      } else {
+        $('<a></a>')
+           .attr('href', "https://doi.org/" + front_matter.doi)
+           .html(front_matter.doi)
+           .appendTo(doi_p);
+      }
+
+       // change plural form of authors/affiliations
+      if (front_matter.authors.length === 1) {
+        var grid = $('.authors-affiliations');
+        grid.children('h3:contains("Authors")').text('Author');
+        grid.children('h3:contains("Affiliations")').text('Affiliation');
+      }
+
+      // remove d-appendix and d-footnote-list local styles
+      $('d-appendix > style:first-child').remove();
+      $('d-footnote-list > style:first-child').remove();
+
+      // move appendix-bottom entries to the bottom
+      $('.appendix-bottom').appendTo('d-appendix').children().unwrap();
+      $('.appendix-bottom').remove();
+
+      // hoverable references
+      $('span.citation[data-cites]').each(function() {
+        const citeChild = $(this).children()[0]
+        // Do not process if @xyz has been used without escaping and without bibliography activated
+        // https://github.com/rstudio/distill/issues/466
+        if (citeChild === undefined) return true
+
+        if (citeChild.nodeName == "D-FOOTNOTE") {
+          var fn = citeChild
+          $(this).html(fn.shadowRoot.querySelector("sup"))
+          $(this).id = fn.id
+          fn.remove()
+        }
+        var refs = $(this).attr('data-cites').split(" ");
+        var refHtml = refs.map(function(ref) {
+          // Could use CSS.escape too here, we insure backward compatibility in navigator
+          return "<p>" + $('div[id="ref-' + ref + '"]').html() + "</p>";
+        }).join("\n");
+        window.tippy(this, {
+          allowHTML: true,
+          content: refHtml,
+          maxWidth: 500,
+          interactive: true,
+          interactiveBorder: 10,
+          theme: 'light-border',
+          placement: 'bottom-start'
+        });
+      });
+
+      // fix footnotes in tables (#411)
+      // replacing broken distill.pub feature
+      $('table d-footnote').each(function() {
+        // we replace internal showAtNode methode which is triggered when hovering a footnote
+        this.hoverBox.showAtNode = function(node) {
+          // ported from https://github.com/distillpub/template/pull/105/files
+          calcOffset = function(elem) {
+              let x = elem.offsetLeft;
+              let y = elem.offsetTop;
+              // Traverse upwards until an `absolute` element is found or `elem`
+              // becomes null.
+              while (elem = elem.offsetParent && elem.style.position != 'absolute') {
+                  x += elem.offsetLeft;
+                  y += elem.offsetTop;
+              }
+
+              return { left: x, top: y };
+          }
+          // https://developer.mozilla.org/en-US/docs/Web/API/HTMLElement/offsetTop
+          const bbox = node.getBoundingClientRect();
+          const offset = calcOffset(node);
+          this.show([offset.left + bbox.width, offset.top + bbox.height]);
+        }
+      })
+
+      // clear polling timer
+      clearInterval(tid);
+
+      // show body now that everything is ready
+      on_load_complete();
+    }
+
+    var tid = setInterval(distill_post_process, 50);
+    distill_post_process();
+
+  }
+
+  function init_downlevel() {
+
+    init_common();
+
+     // insert hr after d-title
+    $('.d-title').after($('<hr class="section-separator"/>'));
+
+    // check if we have authors
+    var front_matter = JSON.parse($("#distill-front-matter").html());
+    var have_authors = front_matter.authors && front_matter.authors.length > 0;
+
+    // manage byline/border
+    if (!have_authors)
+      $('.d-byline').remove();
+    $('.d-byline').after($('<hr class="section-separator"/>'));
+    $('.d-byline a').remove();
+
+    // remove toc
+    $('.d-contents').remove();
+
+    // move appendix elements
+    $('h1.appendix, h2.appendix').each(function(i, val) {
+      $(this).changeElementType('h3');
+    });
+    $('h3.appendix').each(function(i, val) {
+      $(this).nextUntil($('h1, h2, h3')).addBack().appendTo($('.d-appendix'));
+    });
+
+
+    // inject headers into references and footnotes
+    var refs_header = $('<h3></h3>');
+    refs_header.text('References');
+    $('#refs').prepend(refs_header);
+
+    var footnotes_header = $('<h3></h3');
+    footnotes_header.text('Footnotes');
+    $('.footnotes').children('hr').first().replaceWith(footnotes_header);
+
+    // move appendix-bottom entries to the bottom
+    $('.appendix-bottom').appendTo('.d-appendix').children().unwrap();
+    $('.appendix-bottom').remove();
+
+    // remove appendix if it's empty
+    if ($('.d-appendix').children().length === 0)
+      $('.d-appendix').remove();
+
+    // prepend separator above appendix
+    $('.d-appendix').before($('<hr class="section-separator" style="clear: both"/>'));
+
+    // trim code
+    $('pre>code').each(function(i, val) {
+      $(this).html($.trim($(this).html()));
+    });
+
+    // move posts-container right before article
+    $('.posts-container').insertBefore($('.d-article'));
+
+    $('body').addClass('downlevel');
+
+    on_load_complete();
+  }
+
+
+  function init_common() {
+
+    // jquery plugin to change element types
+    (function($) {
+      $.fn.changeElementType = function(newType) {
+        var attrs = {};
+
+        $.each(this[0].attributes, function(idx, attr) {
+          attrs[attr.nodeName] = attr.nodeValue;
+        });
+
+        this.replaceWith(function() {
+          return $("<" + newType + "/>", attrs).append($(this).contents());
+        });
+      };
+    })(jQuery);
+
+    // prevent underline for linked images
+    $('a > img').parent().css({'border-bottom' : 'none'});
+
+    // mark non-body figures created by knitr chunks as 100% width
+    $('.layout-chunk').each(function(i, val) {
+      var figures = $(this).find('img, .html-widget');
+      // ignore leaflet img layers (#106)
+      figures = figures.filter(':not(img[class*="leaflet"])')
+      if ($(this).attr('data-layout') !== "l-body") {
+        figures.css('width', '100%');
+      } else {
+        figures.css('max-width', '100%');
+        figures.filter("[width]").each(function(i, val) {
+          var fig = $(this);
+          fig.css('width', fig.attr('width') + 'px');
+        });
+
+      }
+    });
+
+    // auto-append index.html to post-preview links in file: protocol
+    // and in rstudio ide preview
+    $('.post-preview').each(function(i, val) {
+      if (window.location.protocol === "file:")
+        $(this).attr('href', $(this).attr('href') + "index.html");
+    });
+
+    // get rid of index.html references in header
+    if (window.location.protocol !== "file:") {
+      $('.distill-site-header a[href]').each(function(i,val) {
+        $(this).attr('href', $(this).attr('href').replace(/^index[.]html/, "./"));
+      });
+    }
+
+    // add class to pandoc style tables
+    $('tr.header').parent('thead').parent('table').addClass('pandoc-table');
+    $('.kable-table').children('table').addClass('pandoc-table');
+
+    // add figcaption style to table captions
+    $('caption').parent('table').addClass("figcaption");
+
+    // initialize posts list
+    if (window.init_posts_list)
+      window.init_posts_list();
+
+    // implmement disqus comment link
+    $('.disqus-comment-count').click(function() {
+      window.headroom_prevent_pin = true;
+      $('#disqus_thread').toggleClass('hidden');
+      if (!$('#disqus_thread').hasClass('hidden')) {
+        var offset = $(this).offset();
+        $(window).resize();
+        $('html, body').animate({
+          scrollTop: offset.top - 35
+        });
+      }
+    });
+  }
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if (is_downlevel_browser())
+      init_downlevel();
+    else
+      window.addEventListener('WebComponentsReady', init_distill);
+  });
+
+  </script>
+
+  <style type="text/css">
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+
+
+
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      50px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    sans-serif;
+    --mono-font:       monospace;
+    --body-font:       sans-serif;
+    --navbar-font:     sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #0F2E3D;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+  </style>
+  <style type="text/css">@import url('https://fonts.googleapis.com/css2?family=Roboto');
+
+  :root {
+    
+    --color-background:   #e9edf2;
+    --color-primary:      #0259b0;
+    --color-secondary:    #610a0a;
+    
+  }
+
+  /* base variables */
+
+  /* Edit the CSS properties in this file to create a custom
+     Distill theme. Only edit values in the right column
+     for each row; values shown are the CSS defaults.
+     To return any property to the default,
+     you may set its value to: unset
+     All rows must end with a semi-colon.                      */
+
+  /* Optional: embed custom fonts here with `@import`          */
+  /* This must remain at the top of this file.                 */
+  html {
+    /*-- Main font sizes --*/
+    --title-size:      40px;
+    --body-size:       1.06rem;
+    --code-size:       14px;
+    --aside-size:      12px;
+    --fig-cap-size:    13px;
+    
+    /*-- Main font colors --*/
+    --title-color:     #000000;
+    --header-color:    rgba(0, 0, 0, 0.8);
+    --body-color:      rgba(0, 0, 0, 0.8);
+    --aside-color:     rgba(0, 0, 0, 0.6);
+    --fig-cap-color:   rgba(0, 0, 0, 0.6);
+    /*-- Specify custom fonts ~~~ must be imported above   --*/
+    --heading-font:    "Roboto", sans-serif;
+    --mono-font:       "Roboto", monospace;
+    --body-font:       "Roboto", sans-serif;
+    --navbar-font:     "Roboto", sans-serif;  /* websites + blogs only */
+  }
+
+  /*-- ARTICLE METADATA --*/
+  d-byline {
+    --heading-size:    0.6rem;
+    --heading-color:   rgba(0, 0, 0, 0.5);
+    --body-size:       0.8rem;
+    --body-color:      rgba(0, 0, 0, 0.8);
+  }
+
+  /*-- ARTICLE TABLE OF CONTENTS --*/
+  .d-contents {
+    --heading-size:    18px;
+    --contents-size:   13px;
+  }
+
+  /*-- ARTICLE APPENDIX --*/
+  d-appendix {
+    --heading-size:    15px;
+    --heading-color:   rgba(0, 0, 0, 0.65);
+    --text-size:       0.8em;
+    --text-color:      rgba(0, 0, 0, 0.5);
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  /* These properties only apply to Distill sites and blogs  */
+
+  .distill-site-header {
+    --title-size:       18px;
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #365370;
+  }
+
+  .distill-site-footer {
+    --text-color:       rgba(255, 255, 255, 0.8);
+    --text-size:        15px;
+    --hover-color:      white;
+    --bkgd-color:       #365370;
+  }
+
+  /*-- Additional custom styles --*/
+  /* Add any additional CSS rules below                      */
+
+  html body {
+      background-color: var(--color-background);
+  }
+
+  /* Links */
+
+  a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+
+  d-article a {
+      color: var(--color-primary);
+      border-bottom: 0px;
+      text-decoration: none;
+  }
+
+  a:hover:not(.button), a:focus:not(.button) {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+
+  d-article a:hover:not(.button), a:focus:not(.button) {
+      color: var(--color-secondary);
+      font-weight: 500;
+      border-color: var(--color-secondary);
+  }
+
+  blockquote {
+      border: none !important;
+      font-style: normal !important;
+  }
+
+  details > summary {
+    margin-top: -1.5rem;
+    cursor: pointer;
+    padding: -1.5rem -1.5rem;
+    color: black;
+  }
+
+
+  details {
+    margin-top: 1rem;
+    display: inline;
+    padding-top: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 0rem;
+    padding-left: 2.5rem;
+    color: rgba(0, 0, 0, 0.6);
+  }
+
+  .button {
+      width: 60px;
+      height: 30px;
+      color: #343A40;
+      background: #e9edf2;
+      border: 1px solid #343A40;
+      border-radius: 3px;
+      padding-top: 0.1rem;
+      padding-right: 0.3rem;
+      padding-bottom: 0.1rem;
+      padding-left: 0.3rem;
+      font-size: smaller;
+  }
+
+  .button:hover {
+  	background-color: #343A40;
+  	color: white;
+  }
+
+  .box {
+      width: 60px;
+      height: 30px;
+      color: #343A40;
+      background: #f4f6f8;
+      padding-top: 0.1rem;
+      padding-right: 0.3rem;
+      padding-bottom: 0.1rem;
+      padding-left: 0.3rem;
+  }
+
+
+  div.yourdiv {
+  	display: inline-block;
+      width: fit-content;
+      height: fit-content;
+      padding-top: 2px;
+      padding-right: 10px;
+      padding-bottom: -40px;
+      padding-left: 10px;
+      background: #f4f6f8;
+      border-radius: 8px;
+  	border-width:0px;
+  }
+
+
+  .slick-slide {
+    background: transparent;
+  }
+  .slick-dots li button:before {
+    color: black; /* Change the dot color if necessary */
+  }</style>
+  <style type="text/css">
+  /* base style */
+
+  /* FONT FAMILIES */
+
+  :root {
+    --heading-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+    --mono-default: Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+    --body-default: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif;
+  }
+
+  body,
+  .posts-list .post-preview p,
+  .posts-list .description p {
+    font-family: var(--body-font), var(--body-default);
+  }
+
+  h1, h2, h3, h4, h5, h6,
+  .posts-list .post-preview h2,
+  .posts-list .description h2 {
+    font-family: var(--heading-font), var(--heading-default);
+  }
+
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-family: var(--mono-font), var(--mono-default);
+  }
+
+
+  /*-- TITLE --*/
+  d-title h1,
+  .posts-list > h1 {
+    color: var(--title-color, black);
+  }
+
+  d-title h1 {
+    font-size: var(--title-size, 50px);
+  }
+
+  /*-- HEADERS --*/
+  d-article h1,
+  d-article h2,
+  d-article h3,
+  d-article h4,
+  d-article h5,
+  d-article h6 {
+    color: var(--header-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- BODY --*/
+  d-article > p,  /* only text inside of <p> tags */
+  d-article > ul, /* lists */
+  d-article > ol {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+    font-size: var(--body-size, 1.06rem);
+  }
+
+
+  /*-- CODE --*/
+  d-article div.sourceCode code,
+  d-article pre code {
+    font-size: var(--code-size, 14px);
+  }
+
+  /*-- ASIDE --*/
+  d-article aside {
+    font-size: var(--aside-size, 12px);
+    color: var(--aside-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- FIGURE CAPTIONS --*/
+  figure .caption,
+  figure figcaption,
+  .figure .caption {
+    font-size: var(--fig-cap-size, 13px);
+    color: var(--fig-cap-color, rgba(0, 0, 0, 0.6));
+  }
+
+  /*-- METADATA --*/
+  d-byline h3 {
+    font-size: var(--heading-size, 0.6rem);
+    color: var(--heading-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-byline {
+    font-size: var(--body-size, 0.8rem);
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  d-byline a,
+  d-article d-byline a {
+    color: var(--body-color, rgba(0, 0, 0, 0.8));
+  }
+
+  /*-- TABLE OF CONTENTS --*/
+  .d-contents nav h3 {
+    font-size: var(--heading-size, 18px);
+  }
+
+  .d-contents nav a {
+    font-size: var(--contents-size, 13px);
+  }
+
+  /*-- APPENDIX --*/
+  d-appendix h3 {
+    font-size: var(--heading-size, 15px);
+    color: var(--heading-color, rgba(0, 0, 0, 0.65));
+  }
+
+  d-appendix {
+    font-size: var(--text-size, 0.8em);
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  d-appendix d-footnote-list a.footnote-backlink {
+    color: var(--text-color, rgba(0, 0, 0, 0.5));
+  }
+
+  /*-- WEBSITE HEADER + FOOTER --*/
+  .distill-site-header .title {
+    font-size: var(--title-size, 18px);
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .distill-site-header a,
+  .nav-dropdown .nav-dropbtn {
+    font-family: var(--navbar-font), var(--heading-default);
+  }
+
+  .nav-dropdown .nav-dropbtn {
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    font-size: var(--text-size, 15px);
+  }
+
+  .distill-site-header a:hover,
+  .nav-dropdown:hover .nav-dropbtn {
+    color: var(--hover-color, white);
+  }
+
+  .distill-site-header {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer {
+    font-size: var(--text-size, 15px);
+    color: var(--text-color, rgba(255, 255, 255, 0.8));
+    background-color: var(--bkgd-color, #0F2E3D);
+  }
+
+  .distill-site-footer a:hover {
+    color: var(--hover-color, white);
+  }</style>
+  <!--/radix_placeholder_distill-->
+  <script src="site_libs/header-attrs-2.20/header-attrs.js"></script>
+  <script src="site_libs/popper-2.6.0/popper.min.js"></script>
+  <link href="site_libs/tippy-6.2.7/tippy.css" rel="stylesheet" />
+  <link href="site_libs/tippy-6.2.7/tippy-light-border.css" rel="stylesheet" />
+  <script src="site_libs/tippy-6.2.7/tippy.umd.min.js"></script>
+  <script src="site_libs/anchor-4.2.2/anchor.min.js"></script>
+  <script src="site_libs/bowser-1.9.3/bowser.min.js"></script>
+  <script src="site_libs/webcomponents-2.0.0/webcomponents.js"></script>
+  <script src="site_libs/distill-2.2.21/template.v2.js"></script>
+  <!--radix_placeholder_site_in_header-->
+  <script type="text/javascript" cookie-consent="tracking" async src="https://www.googletagmanager.com/gtag/js?id=G-XZFEH1TFLQ"></script>
+  <script type="text/javascript" cookie-consent="tracking">
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-XZFEH1TFLQ');
+  </script>
+  <!--/radix_placeholder_site_in_header-->
+
+
+</head>
+
+<body>
+
+<!--radix_placeholder_front_matter-->
+
+<script id="distill-front-matter" type="text/json">
+{"title":"Articles & Book Chapters","authors":[]}
+</script>
+
+<!--/radix_placeholder_front_matter-->
+<!--radix_placeholder_navigation_before_body-->
+<header class="header header--fixed" role="banner">
+<nav class="distill-site-nav distill-site-header">
+<div class="nav-left">
+<a href="index.html" class="title">Susan Stokes</a>
+<a href="research.html">Articles</a>
+<a href="books.html">Books</a>
+<a href="press.html">Public Engagement</a>
+<a href="files/stokes_cv.pdf">CV</a>
+<a href="contact.html">Contact</a>
+</div>
+<div class="nav-right">
+<a href="mailto:sstokes@uchicago.edu">
+<i class="fas fa-envelope" aria-hidden="true"></i>
+</a>
+<a href="https://scholar.google.com/citations?user=1HYSDzkAAAAJ">
+<i class="fab fa-google" aria-hidden="true"></i>
+</a>
+<a href="javascript:void(0);" class="nav-toggle">&#9776;</a>
+</div>
+</nav>
+</header>
+<!--/radix_placeholder_navigation_before_body-->
+<!--radix_placeholder_site_before_body-->
+<!--/radix_placeholder_site_before_body-->
+
+<div class="d-title">
+<h1>Articles &amp; Book Chapters</h1>
+<!--radix_placeholder_categories-->
+<!--/radix_placeholder_categories-->
+
+</div>
+
+
+<div class="d-article">
+<div class="d-contents d-contents-float">
+<nav class="l-text toc figcaption" id="TOC">
+<h3>Contents</h3>
+<ul>
+<li><a href="#democratic-erosion" id="toc-democratic-erosion">Democratic Erosion</a></li>
+<li><a href="#participation" id="toc-participation">Participation</a></li>
+<li><a href="#clientelism" id="toc-clientelism">Clientelism</a></li>
+<li><a href="#parties-and-partisanship" id="toc-parties-and-partisanship">Parties and Partisanship</a></li>
+<li><a href="#political-economy" id="toc-political-economy">Political Economy</a></li>
+<li><a href="#methods" id="toc-methods">Methods</a></li>
+<li><a href="#latin-american-politics" id="toc-latin-american-politics">Latin American Politics</a></li>
+<li><a href="#other" id="toc-other">Other</a></li>
+</ul>
+</nav>
+</div>
+<h2 id="democratic-erosion">Democratic Erosion</h2>
+<p>2022. <a href="https://doi.org/10.1017/S000712342100048X">“The Effect of Electoral Inversions on Democratic Legitimacy: Evidence from the United States”</a> (with John M. Carey, Gretchen Helmke, Brendan Nyhan, Mitchell Sanders, and Shun Yamaya). <em>British Journal of Political Science</em> .
+ 
+<a href=files/bjps2022.pdf class="button">PDF</a>   <a href=https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/YZZFTK class="button">Replication</a></p>
+<details>
+<summary>
+View Abstract
+</summary>
+When a party or candidate loses the popular vote but still wins the election, do voters view the winner as legitimate? This scenario, known as an <em>electoral inversion</em>, describes the winners of two of the last six presidential elections in the United States. We report results from two experiments testing the effect of inversions on democratic legitimacy in the US context. Our results indicate that inversions significantly decrease the perceived legitimacy of winning candidates. Strikingly, this effect does not vary with the margin by which the winner loses the popular vote, nor by whether the candidate benefiting from the inversion is a co-partisan. The effect is driven by Democrats, who punish inversions regardless of candidate partisanship; few effects are observed among Republicans. These results suggest that the experience of inversions increases sensitivity to such outcomes among supporters of the losing party.
+</details>
+<p>2022. <a href="https://www.tandfonline.com/doi/abs/10.1080/17457289.2020.1790577">“Who will defend democracy? Evaluating tradeoffs in candidate support among partisan donors and voters”</a> (with John Carey, Katherine Clayton, Gretchen Helmke, Brendan Nyhan, and Mitchell Sanders). <em>Journal of Elections, Public Opinion, and Parties</em>.
+ 
+<a href=files/jepop2022.pdf class="button">PDF</a>   <a href=https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/MRWYC2 class="button">Replication</a></p>
+<details>
+<summary>
+View Abstract
+</summary>
+Scholars and pundits fear that the American public’s commitment to democracy is declining and that citizens are willing to embrace candidates who would trample democratic principles. We examine whether violations of those principles generate resistance from voters and/or top campaign donors and whether such resistance extends across partisan lines. In a conjoint survey experiment, we investigate how regular Americans and donor elites trade off partisanship, policy positions, and support for democratic values when choosing between hypothetical political candidates. Our findings indicate that both citizens and donors punish candidates who endorse violations of democratic principles irrespective of the candidate’s party. However, partisans react very differently to candidates who support voter identification laws that threaten access to the franchise. This polarized response is especially strong among donors. These results suggest that the public and donors may sometimes be willing to forgive transgressions against democratic norms that align with their partisan and policy preferences.
+</details>
+<p>2020. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/psq.12656">“Presidential Rhetoric and Populism”</a> (with Ipek Çinar and Andres Uribe). <em>Presidential Studies Quarterly</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Scholars and the general public have been struck by the norm-shattering rhetoric of President Donald J. Trump. His “rhetorical signature” is heavy with Manichean good-versus-evil messages, vilification of his opponents, and disdain for institutions and for evidence. But many politicians vilify their opponents and style themselves as uniquely able to solve their society’s problems. In fact, Trump’s Manichean discourse is typical of populist leaders, in the United States and around the world. Using text-as-data analysis of campaign rhetoric, we study the content and mood of presidential campaign speeches by a range of U.S. politicians, which allows a broader perspective not only on the uniqueness of Trump’s rhetoric, but also its continuities with the rhetoric of others. This analysis allows us to define Trump as a right-wing populist. Right-wing populists, like left-leaning ones, are anti-elitist and Manichean in words and outlook. However, the two versions of populism differ in the nature of the anti-elitism, with right-wing populists targeting political elites and left-wing ones targeting economic elites. Right-wing populists also define the “other” as ethnic out-groups, who threaten the ethnically pure “people.”
+</details>
+<p>2019. <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/searching-for-bright-lines-in-the-trump-presidency/CB5F40CBC27EDA75F4D7FC7F171E6880">“Searching for Bright Lines in the Trump Presidency”</a> (with John Carey, Gretchen
+Helmke, Brendan Nyhan, and Mitch Sanders). <em>Perspectives on Politics</em>.
+ 
+<a href=files/pop2019.pdf class="button">PDF</a>  <a href=https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/IYWXMF class="button">Replication</a></p>
+<details>
+<summary>
+View Abstract
+</summary>
+Is American democracy under threat? The question is more prominent in political debate now than at any time in recent memory. However, it is also too blunt; there is widespread recognition that democracy is multifaceted and that backsliding, when it occurs, tends to be piecemeal. To address these concerns, we provide original data from surveys of political science experts and the public measuring the perceived importance and performance of U.S. democracy on a number of dimensions during the first year-and-a-half of the Trump presidency. We draw on a theory of how politicians may transgress limits on their authority and the conditions under which constraints are self-enforcing. We connect this theory to our survey data in an effort to identify potential areas of agreement—bright lines—among experts and the public about the most important democratic principles and whether they have been violated. Public and expert perceptions often differ on the importance of specific democratic principles. In addition, though our experts perceive substantial democratic erosion, particularly in areas related to checks and balances, polarization between Trump supporters and opponents undermines any social consensus recognizing these violations.
+</details>
+<h2 id="participation">Participation</h2>
+<p>Working paper. “Why is Participation Low in Referendums? Lessons from Latin America” (with Eli Rau and Radha Sarkar). <em>Under review</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Whether referendums, initiatives, and other mechanisms of direct democracy enhance representative systems is a matter of debate. Skeptics note — among other criticisms — that turnout tends to be low in referendums, often lower than in candidate elections in the same country. If citizens don’t care enough to participate, how useful can these mechanisms be for improving the quality of democratic systems? We argue that low referendum turnout has as much to do with parties’ disincentives to mobilize voters as with voter disinterest. Prior research on political behavior in referendums has focused largely on Europe, and assumes that voters view them as elections of lesser importance. By shifting focus to Latin America, we introduce more variation in the features of political parties that influence levels of turnout. We draw on cross-national evidence, qualitative research in Colombia, and quantitative analysis of municipal-level referendum voting behavior in Brazil. The key to understanding low voter turnout in these settings is the relatively weaker incentives that political parties have to turn out the vote when control over office is not at stake. We demonstrate that, in clientelistic systems, party operatives have particularly weak incentives to get their constituents out to the polls.
+</details>
+<p>2020. <a href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/beyond-opportunity-costs-campaign-messages-anger-and-turnout-among-the-unemployed/444928192590BEE9B4FB47BB4B7507D9">“Beyond Opportunity Costs: Campaign Messages, Anger, and Turnout among the Unemployed”</a> (with S. Erdem Aytaç and Eli Rau). <em>British Journal of Political Science</em>.  
+<a class="button" href=files/bjps2020.pdf>PDF</a>   <a class="button" href=https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/USKUR2>Replication</a></p>
+<details>
+<summary>
+View Abstract
+</summary>
+Are people under economic stress more or less likely to vote, and why? With large observational datasets and a survey experiment involving unemployed Americans, we show that unemployment depresses participation. But it does so more powerfully when the unemployment rate is low, less powerfully when it is high. Whereas earlier studies have explained lower turnout among the unemployed by stressing the especially high opportunity costs these would-be voters face, our evidence points to the psychological effects of unemployment and of campaign messages about it. When unemployment is high, challengers have an incentive to blame the incumbent, thus eliciting anger among the unemployed. Psychologists have shown anger to be an approach or mobilizing emotion. When joblessness is low, campaigns tend to ignore it. The jobless thus remain in states of depression and self-blame, which are demobilizing emotions.
+</details>
+<p>2017. <a href="https://journals.sagepub.com/doi/abs/10.1177/0022002716686828">“Why do People Join Backlash Movements? Lesson from Turkey”</a> (with Erdem Aytaç
+and Luis Schiumerini). <em>Journal of Conflict Resolution</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+When people learn that demonstrators are being subjected to harsh treatment by the police, sometimes their reaction is to join demonstrations. What explains the potentially mobilizing power of repression? Information-oriented theories posit that repression changes people’s beliefs about the likely success of the protests or the type of the government, thus encouraging them to join. Social–psychological theories posit that repression provokes a moral and emotional reaction from bystanders, and these emotional reactions are mobilizing. Our research offers a rare opportunity to test these theories, empirically, against one another. We offer experimental evidence from Turkey after the 2013 Gezi uprising. In this setting, emotional reactions appear to be the link between repression and backlash mobilization. Information-oriented theories of backlash mobilization may be less germane in democracies, in which people already have access to information about their governments, and in highly polarized polities, in which few people’s political affinities are up for grabs.
+</details>
+<p>2017. <a href="https://www.cambridge.org/core/journals/perspectives-on-politics/article/abs/protests-and-repression-in-new-democracies/E99269D609B4F3DD1231BD36E44C5BF4">“Protests and Repression in New Democracies”</a> (with Erdem Aytaç
+and Luis Schiumerini). <em>Perspectives on Politics</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Elected governments sometimes deal with protests by authorizing the police to use less-lethal tools of repression: water cannons, tear gas, rubber bullets, and the like. When these tactics fail to end protests and instead spark larger, backlash movements, some governments reduce the level of violence but others increase it, causing widespread injuries and loss of life. We study three recent cases of governments in new democracies facing backlash movements. Their decision to scale up or scale back police repression reflected the governments’ levels of electoral security. Secure governments with relatively unmovable majorities behind them feel freer to apply harsh measures. Less secure governments, those with volatile electoral support, contemplate that their hold on power might weaken should they inflict very harsh treatment on protesters; they have strong incentives to back down. Our original survey research and interviews with civilian authorities, police officials, and protest organizers in Turkey, Brazil, and Ukraine allow us to evaluate this explanation as well as a number of rival accounts. Our findings imply that elected governments that rest on very stable bases of support may be tempted to deploy tactics more commonly associated with authoritarian politics.
+</details>
+<h2 id="clientelism">Clientelism</h2>
+<p>2014. <a href="https://onlinelibrary.wiley.com/doi/abs/10.1111/lsq.12058">“Catalyst or Cause? Legislation and the Demise of Machine Politics in Britain and the United States”</a> (with Eddie Camp and Avinash Dixit). <em>Legislative Studies Quarterly</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+In the nineteenth century, British and American parties competed by hiring electoral agents to bribe and treat voters. British parties abruptly abandoned this practice in the 1880s. The conventional explanation is that legislation put an end to agent-mediated distribution. But this explanation leaves many questions unanswered. Why did the parties use agents for decades, even though they imposed great expense on candidates and were viewed as untrustworthy? And why, after decades of half-hearted reforms, did the House of Commons pass effective antibribery reforms only in 1883? In our formal model, parties hire agents to solve information problems, but agent-mediated distribution can be collectively suboptimal. Legislation can serve as a credibility device for shifting to less costly strategies.
+</details>
+<p>2007. <a href="https://www.cambridge.org/core/books/patrons-clients-and-policies/D4563A6CFFB2076C11E910568C5B2CE2">“Monopoly and Monitoring: An Approach to Political Clientelism”</a> (with Luis Fernando Medina). In Herbert Kitschelt and Steven Wilkinson, eds., <em>Patrons, Clients, and Policies,</em> Cambridge University Press.</p>
+<p>2007. <a href="https://www.rienner.com/title/Elections_for_Sale_The_Causes_and_Consequences_of_Vote_Buying">“Is Vote Buying Undemocratic?”</a> In Frederic C. Schaffer, ed., <em>Elections for Sale: The Causes and Consequences of Vote Buying,</em> Lynne Rienner.</p>
+<p>2007. <a href="https://academic.oup.com/edited-volume/28345">“Political Clientelism.”</a> In Carles Boix and Susan C. Stokes, eds., <em>Oxford Handbook of Comparative Politics,</em> Oxford University Press.</p>
+<p>2005. <a href="https://www.cambridge.org/core/journals/american-political-science-review/article/abs/perverse-accountability-a-formal-model-of-machine-politics-with-evidence-from-argentina/A2A7141AA5EC213E6C5FAFD86FBCC859">“Perverse Accountability: A Formal Model of Machine Politics with Evidence from Argentina.”</a> <em>American Political Science Review</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Political machines (or clientelist parties) mobilize electoral support by trading particularistic benefits to voters in exchange for their votes. But if the secret ballot hides voters’ actions from the machine, voters are able to renege, accepting benefits and then voting as they choose. To explain how machine politics works, I observe that machines use their deep insertion into voters’ social networks to try to circumvent the secret ballot and infer individuals’ votes. When parties influence how people vote by threatening to punish them for voting for another party, I call this accountability. I analyze the strategic interaction between machines and voters as an iterated prisoners’ dilemma game with one-sided uncertainty. The game generates hypotheses about the impact of the machine’s capacity to monitor voters, and of voters’ incomes and ideological stances, on the effectiveness of machine politics. I test these hypotheses with data from Argentina.
+</details>
+<p>2004. <a href="https://www.cambridge.org/core/journals/latin-american-research-review/article/vote-buying-in-argentina/0E6DDCD3ECBD98210D57D006EDC668CF">“Vote Buying in Argentina”</a> (with Valeria Brusco and Marcelo Nazareno). <em>Latin American Research Review</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+We analyze vote buying in Argentina—the payment by political parties of minor benefits (food, clothing, cash) to citizens in exchange for their votes. How widespread is vote buying in Argentina, and what is the profile of the typical vote “seller”? Did the shift toward a neoliberal economic model in the 1990s increase or reduce vote buying? Why do parties attempt to buy votes when the ballot is secret and people could simply accept campaign handouts and then vote as they wish? We analyze responses to surveys we conducted in Argentina in 2002 and offer answers to these questions. Our findings suggest that vote buying is an effective strategy for mobilizing electoral support among low-income people when parties are able to monitor voters’ actions, make reasonably accurate inferences about how individuals voted, and credibly threaten to punish voters who defect from the implicit clientelist bargain. Our results point toward ballot reform as one way to reduce vote buying in Argentina.
+</details>
+<h2 id="parties-and-partisanship">Parties and Partisanship</h2>
+<p>2010. <a href="https://www.sciencedirect.com/science/article/pii/S0261379409000894">“Democracy, Interrupted: Regime Change and Partisanship in Twentieth-Century
+Argentina”</a> (with Noam Lupu). <em>Electoral Studies</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Electoral volatility is much higher in new than in advanced democracies. Some scholars contend that weak partisan ties among the electorate lie behind this high volatility. Political parties in new democracies do not invest in building strong linkages with voters, they claim; hence partisanship is not widespread, nor does it grow over time. Our view is that democratic processes do encourage the spread of partisanship and hence the stabilization of electoral outcomes over time in new democracies. But this dynamic can be masked by countervailing factors and cut short by regime instability. We expect that, all else being equal, volatility will decline over time as a new democracy matures but increase again when democracy is interrupted. We use disaggregated ecological data from Argentina over nearly a century to show that electoral stability grows during democratic periods and erodes during dictatorships.
+</details>
+<p>2009. <a href="https://www.cambridge.org/core/journals/latin-american-research-review/article/social-bases-of-political-parties-in-argentina-19122003/96E559952E4E4DEC17215F004794DD87">“The Social Bases of Political Parties in Argentina, 1912-2003”</a> (with Noam Lupu). <em>Latin American Research Review</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+To what extent has the Argentine party system been polarized along class lines? The political historiography gives mixed and contradictory answers to this question. We explore the social bases of Argentina’s political parties using an original database, the most comprehensive database of Argentine elections yet assembled, and new methods of ecological inference that yield more reliable results than previous analyses. We identify two distinct party systems, one in place between 1912 and 1940, the other emerging after 1946. The first party system was not consistently class based, but the second was, with the Radical Party representing the middle classes and the Peronists, workers and the poor. Still, there were important exceptions. Lower-class support for the Peronists, as proxied by literacy rates, declined during Perón’s exile, which implies that the party had trouble mobilizing lower-class illiterate voters. Since the return to democracy in 1983, class polarization has again found some expression in the party system.
+</details>
+<p>1999. <a href="https://www.annualreviews.org/content/journals/10.1146/annurev.polisci.2.1.243">“Political Parties and Democracy.”</a> <em>Annual Review of Political Science</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+A central claim of democratic theory is that democracy induces governments to be responsive to the preferences of the people. Political parties organize politics in every modern democracy, and some observers claim that parties are what induce democracies to be responsive. Yet, according to others, parties give voice to extremists and reduce the responsiveness of governments to the citizenry. The debate about parties and democracy takes on renewed importance as new democracies around the globe struggle with issues of representation and governability. I show that our view of the impact of parties on democratic responsiveness hinges on what parties are—their objectives and organization. I review competing theories of parties, sketch their testable implications, and note the empirical findings that may help adjudicate among these theories. I also review debates about the origins of parties, about the determinants of party-system size and characteristics, and about party competition.
+</details>
+<p>1998. <a href="http://www.politicaygobierno.cide.edu/index.php/pyg/article/view/509">“¿Son los partidos políticos el problema de la América Latina?”</a> <em>Política y Gobierno</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Los estudiosos responsabilizan a los partidos políticos débiles y a los sistemas de partidos volátiles de las deficiencias de las democracias latinoamericanas. Entre éstas se encuentra la decir, la tendencia de los políticos a pronunciarse a favor de ciertas políticas durante las campañas y luego a abandonarlas una vez que están en el poder. Sin embargo, la teoría política y la experiencia de América Latina plantean expectativas contradictorias: que los partidos fuertes pueden aumentar la capacidad de respuesta y que pueden reducirla. Los estudios de caso y el análisis estadístico de datos nacionales presentados en este artículo muestran que tanto los partidos débiles en sistemas volátiles como los partidos fuertes en sistemas estables realizaron drásticos y tempranos cambios de políticas. Para comprender estos cambios, debemos ver más allá de las deficiencias de los partidos políticos. Se concluye con algunas reflexiones acerca de la conveniencia normativa de la respuesta al mandato popular.
+</details>
+<h2 id="political-economy">Political Economy</h2>
+<p>2017. <a href="https://www.cambridge.org/core/journals/british-journal-of-political-science/article/abs/when-do-the-wealthy-support-redistribution-inequality-aversion-in-buenos-aires/FA1E9E1AF6D469601D33E0207228DC74">“When Do the Wealthy Support Redistribution? Inequality Aversion in Buenos Aires”</a> (with Germán Feierherd and Luis Schiumerini). <em>British Journal of Political Science</em>.
+ 
+<a class="button" href=files/bjps2017.pdf>PDF</a>   <a class="button" href=https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/THXYMC>Replication</a></p>
+<p>2006. <a href="https://www.jstor.org/stable/4151101">“Réditos y peligros electorales del gasto público en Argentina”</a> (with Valeria Brusco and Marcelo Nazareno). <em>Desarrollo Económico</em>.</p>
+<p>2003. <a href="https://www.cambridge.org/core/journals/world-politics/article/abs/endogenous-democratization/B813380A747708BE21A0B28742640EBA">“Endogenous Democratization”</a> (with Carles Boix). <em>World Politics</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+The authors show that economic development increases the probability that a country will undergo a transition to democracy. These results contradict the finding of Przeworski and his associates, that development causes democracy to last but not to come into existence in the first place. By dealing adequately with problems of sample selection and model specification, the authors discover that economic growth does cause nondemocracies to democratize. They show that the effect of economic development on the probability of a transition to democracy in the hundred years between the mid-nineteenth century and World War II was substantial, indeed, even stronger than its effect on democratic stability. They also show that, in more recent decades, some countries that developed but remained dictatorships would, because of their development, be expected to democratize in as few as three years after achieving a per capita income of $12,000 per capita.
+</details>
+<p>1997. <a href="https://www.jstor.org/stable/422080">“Democratic Accountability and Policy Change: Economic Policy in Fujimori’s Peru.”</a> <em>Comparative Politics</em>.</p>
+<p>1996. <a href="https://journals.sagepub.com/doi/abs/10.1177/0010414096029005001">“Public Opinion and Market Reforms: The Limits of Economic Voting.”</a> (Introduction to a special issue, Public Opinion and Market Reforms in New Democracies). <em>Comparative Political Studies</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+The broadly held view that promarket reforms are good for most people is in conflict with the equally broadly held view that, in democracies, reforms will generate widespread resistance. Resistance is expected because reforms typically produce economic downturns, at least over the short term. Under normal circumstances, we expect citizens to withdraw support from governments during periods of economic decline. If citizens withdraw support, then governments, worried about the next election, may abandon reforms. But our expectations should be different of new democracies pursuing promarket reforms. Citizens may believe governments when they claim that things have to get worse before they get better or that economic stagnation is the fault of the past model. Research in Poland, Peru, and Mexico, reported in this special issue, supports these expectations. Hence under democracy there is more scope for support of painful reforms than frequently acknowledged.
+</details>
+<p>1996. <a href="https://journals.sagepub.com/doi/abs/10.1177/0010414096029005003">“Economic Reform and Public Opinion in Peru, 1990-1995.”</a> <em>Comparative Political Studies</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+Even if they are confident that prosperity lies just over the horizon, politicians who embark on promarket reforms know they are in for some stormy weather. How will they fare in voters’ eyes once the pain is felt? Will voters inevitably turn against politicians who impose painful measures without an electoral mandate to do so? The story of economic reform and public opinion in Peru under Alberto Fujimori (1990-1995) poses just these questions. The author uses monthly public opinion polls and monthly economic data to analyze the impact of economic changes during Fujimori’s reform program on opinions of the reforms and the president. The author finds that Limeños withdrew support from the program and the president when employment fell and inflation rose, responses consistent with the findings of the economic voting literature. But when real wages fell, they became optimistic about the future and more likely to support reforms and the government.
+</details>
+<h2 id="methods">Methods</h2>
+<p>2014. <a href="https://yalebooks.yale.edu/book/9780300169409/field-experiments-and-their-critics/">“A Defense of Observational Research.”</a> In Dawn Teele, ed., <em>Field Experiments and Their Critics,</em> Yale University Press.
+ 
+<a href=files/Stokes_Observational_Research.pdf class="button">PDF</a></p>
+<p>2007. <a href="https://nyupress.org/9780814740446/political-contingency/">“Region, Contingency, and Democratization.”</a> In Ian Shapiro, ed., <em>Political Contingency,</em> NYU Press.</p>
+<h2 id="latin-american-politics">Latin American Politics</h2>
+<p>2006. <a href="https://www.press.jhu.edu/books/title/9015/informal-institutions-and-democracy">“Do Informal Rules Make Democracy Work? Accounting for Accountability in Argentina.”</a> In Gretchen Helmke and Steven Levitsky, eds., <em>Informal Institutions and Democracy,</em> Johns Hopkins Press.</p>
+<p>1996. <a href="https://books.google.com/books/about/Constructing_Democratic_Governance.html?id=Lop7v_R6jeYC">“Peru: The Rupture of Democratic Rule.”</a> In Jorge I. Domínguez and Abraham F. Lowenthal, eds., <em>Constructing Democratic Governance,</em> Johns Hopkins University Press.</p>
+<p>1995. <a href="https://books.google.com/books/about/The_Consolidation_of_Democracy_in_Latin.html?id=rAJLzwEACAAJ">“Democracy and the Limits of Popular Sovereignty in South America.”</a> In J. Tulchin and B. Romero, eds., <em>The Consolidation of Democracy in Latin Latin America,</em> Lynne Rienner.</p>
+<p>1994. <a href="https://books.google.com/books/about/La_consolidaci%C3%B3n_democr%C3%A1tica_en_Am%C3%A9ri.html?id=cnB7AAAAMAAJ">“Redemocratización y representación en América del Sur: Un balance crítico.”</a> In Anna Balletbó, ed., <em>La Consolidación Democrática en América Latina,</em> Hacer.</p>
+<p>1991. <a href="https://www.cambridge.org/core/journals/latin-american-research-review/article/politics-and-latin-americas-urban-poor-reflections-from-a-lima-shantytown/5E3A633979AFA482A97D617F542476C1">“Politics and Latin America’s Urban Poor: Reflections from a Lima Shantytown.”</a> <em>Latin American Research Review</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+In the early 1970s, Wayne Cornelius asked, “Are the migrant masses revolutionary? Definitely not, at least in Latin America and many other parts of the developing world.” These words summarized an emerging revisionist view of the political character of Latin America’s new urban poor. Careful empirical research had proved wrong previous scholars and observers who had expected the new migrant populations in Latin America’s cities to become sources of support for revolutionary political movements. A new picture of the inhabitants of Latin America’s burgeoning shantytowns came into focus, showing these populations to be either passive or loyally engaged in the surrounding political system. According to this picture, squatters held considerable hope for individual advancement, forged clientelistic ties with government officials, and showed few signs of joining radicalized, class-conscious social movements.
+</details>
+<p>1991. <a href="https://journals.sagepub.com/doi/abs/10.1177/003232929101900301">“Hegemony, Consciousness, and Political Change in Peru.”</a> <em>Politics and Society</em>.</p>
+<h2 id="other">Other</h2>
+<p>2018. <a href="https://www.tandfonline.com/doi/abs/10.1080/08913811.2018.1473111">“Accountability for Realists.”</a> <em>Critical Review</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+In <em>Democracy for Realists</em>, Christopher Achen and Larry Bartels argue that voters are shortsighted and punish incumbents for politically irrelevant outcomes. These failings, in the authors’ view, mean that voters are incapable of holding politicians to account. But Achen and Bartels overstate voters’ failure to engage in effective retrospective voting. The authors also understate the degree to which accountability can be compatible with voters’ being myopic, such as when early- and late-term performance are correlated. Achen and Bartels also overlook evidence that the American state acted as an insurer against social risk long before the New Deal, a fact that points to voters using relevant criteria (not irrelevant ones) when they appear to punish incumbents for natural disasters. Finally, while accountability is an important consequentialist reason for democracy, we should keep in mind non-consequentialist justifications for this system of government, in particular its instantiation of political equality.
+</details>
+<p>2003. <a href="https://ohiostatepress.org/books/titles/9780814209349.html">“Democracy and Representation: Comments on ‘Democratic Representation: Two Contributions from Comparative Politics’ by G. Bingham Powell, Jr.”</a> In Edward D. Mansfield and Richard Sisson, eds., <em>The Evolution of Political Knowledge,</em> The Ohio State University Press.</p>
+<p>1998. <a href="https://www.sciencedirect.com/science/article/abs/pii/S0261379498000341">“Constituency Influence and Representation.”</a> <em>Electoral Studies</em>.</p>
+<details>
+<summary>
+View Abstract
+</summary>
+In their classic study “Constituency Influence in Congress”, Miller and Stokes (1966) equated representation with responsiveness to constituent opinion. But when constituents are uncertain about the effects of policies and when they may come to favor a policy which they opposed before its implementation, politicians may represent constitutent’s interests even though they are unresponsive to their ex ante preferences. Several Latin American governments that switched to unpopular policies early in their terms did so because they thought citizens were ill-informed and their preferences would change. Even though we should consider such policy switches as carried out by governments that are attempting to represent, we should not return to a Burkean ideal whereby legislators do what they deem best regardless of the will of their constituents.
+</details>
+<p>1998. <a href="https://www.cambridge.org/core/books/deliberative-democracy/F8210B09ECDEDF1479DF8D221277F119">“Pathologies of Deliberation.”</a> In Jon Elster, ed., <em>Deliberative Democracy,</em> Cambridge University Press.</p>
+<div class="sourceCode" id="cb1"><pre class="sourceCode r distill-force-highlighting-css"><code class="sourceCode r"></code></pre></div>
+<!--radix_placeholder_article_footer-->
+<!--/radix_placeholder_article_footer-->
+</div>
+
+<div class="d-appendix">
+</div>
+
+
+<!--radix_placeholder_site_after_body-->
+<!--/radix_placeholder_site_after_body-->
+<!--radix_placeholder_appendices-->
+<div class="appendix-bottom"></div>
+<!--/radix_placeholder_appendices-->
+<!--radix_placeholder_navigation_after_body-->
+<div class="distill-site-nav distill-site-footer">
+
+</div>
+<!--/radix_placeholder_navigation_after_body-->
+
+
+</body>
+
+</html>

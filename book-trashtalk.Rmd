@@ -1,0 +1,19 @@
+---
+title: "Trash-Talking Democracy: Why Leaders Erode Their Democracies and How to Stop Them"
+
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+by Susan C. Stokes <br/>
+Forthcoming
+
+
+In the past two decades, a growing number of presidents and prime ministers have actively undermined their countries’ democratic institutions. *Trash-Talking Democracy* offers an explanation for this wave of democratic erosion or backsliding, evidence about how it can be effectively resisted, and ideas about how to repair democratic institutions after the backsliding leader is no longer in power. The manuscript locates the two major flavors of eroding leaders – right-wing ethnonationalists and left-wing populists – in the historical context of late- 20th-century shifts in party politics, and explains why income inequality is a key predictor of which democracies are most at risk of eroding. The study offers additional evidence of the widely observed connection between democratic erosion and partisan polarization – polarization that backsliding leaders try to exacerbate. But it also calls attention to a less-recognized strategy that these leaders have for keeping voters on board in the midst of attacks on institutions: they degrade the value of their democracy’s institutions by “talking trash” about them. Post-erosion efforts at democratic repair will need to focus not just on de-polarization but on restoring confidence in institutions and countering democratic cynicism.
+
+
+
+[&larr; Back to all books](books.html)

@@ -1,0 +1,30 @@
+name: "website"
+title: "Susan Stokes"
+google_analytics: "G-XZFEH1TFLQ"
+theme: theme.css
+description: |
+  Professor of Political Science, University of Chicago
+output_dir: "."
+navbar:
+  left:
+    - text: "Articles"
+      href: research.html
+    - text: "Books"
+      href: books.html
+    - text: "Public Engagement"
+      href: press.html
+    - text: "CV"
+      href: files/stokes_cv.pdf
+    - text: "Contact"
+      href: contact.html
+  right:
+    - icon: fas fa-envelope
+      href: mailto:sstokes@uchicago.edu
+ #   - icon: fab fa-twitter
+#      href: https://twitter.com/
+ #   - icon: fab fa-github
+ #     href: https://github.com/
+    - icon: fab fa-google
+      href: https://scholar.google.com/citations?user=1HYSDzkAAAAJ
+include: ["teaching/"]
+output: distill::distill_article

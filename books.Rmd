@@ -1,0 +1,34 @@
+---
+title: "Books"
+
+---
+  
+  
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```
+
+Click book cover for more information:
+
+[![](images/book-covers/trashtalk.png){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-trashtalk.html)
+[![](images/book-covers/whybother.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-whybother.html)
+[![](images/book-covers/brokers.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-brokers.html)
+[![](images/book-covers/skepticism.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-skepticism.html)
+[![](images/book-covers/mandates.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-mandates.html)
+[![](images/book-covers/peru.jpeg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-peru.html)
+
+
+
+## Edited Volumes
+
+[![](images/book-covers/pol-rep.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-pol-rep.html)
+[![](images/book-covers/designing.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-designing.html)
+[![](images/book-covers/handbook.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-handbook.html)
+[![](images/book-covers/democracia.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-democracia.html)
+[![](images/book-covers/market-reforms.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-market-reforms.html)
+[![](images/book-covers/dar.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-dar.html)
+
+
+
+
+

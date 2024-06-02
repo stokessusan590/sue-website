@@ -1,0 +1,44 @@
+---
+title: "Susan Stokes"
+image: "images/headshot.png"
+links:
+  - label: '<i class="fas fa-envelope"></i> Email'
+    url: "mailto:sstokes@uchicago.edu"
+  - label: '<i class="fab fa-google"></i> Scholar'
+    url: "https://scholar.google.com/citations?user=1HYSDzkAAAAJ"
+
+output:
+  postcards::trestles
+site: distill::distill_website
+---
+
+
+
+
+```{r, include = FALSE}
+trestles_orig <- readLines(
+  system.file("pandoc_templates/trestles.html",
+              package = "postcards")
+)
+trestles_mod <- trestles_orig
+trestles_mod[
+  which(
+    grepl(
+      'class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: scroll;"',
+      trestles_mod
+    )
+  )
+] <- '<div class="d-flex flex-column col px-5 align-items-center align-self-center mh-100" style="overflow-y: none;">'
+trestles_mod <- gsub("'Roboto Slab'", '-apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif', trestles_mod)
+cat(paste(trestles_mod, collapse = "\n"), file = system.file("pandoc_templates/trestles.html",
+              package = "postcards"))
+```
+
+# About Me
+
+
+I am the Tiffany and Margaret Blake Distinguished Service Professor of Political Science at the [University of Chicago](https://political-science.uchicago.edu/) and Director of the [Chicago Center on Democracy](https://democracy.uchicago.edu/). I have written or coauthored six books on topics including democratic theory, distributive politics and clientelism, political behavior and participation, democratic erosion, and Latin American politics. I am a member of the [National Academy of Sciences](https://www.nasonline.org/member-directory/members/20051950.html), the [American Academy of Arts Sciences](https://www.amacad.org/person/susan-carol-stokes), past chair of APSA’s Comparative Politics and Democracy and Autocracy Sections, past chair of the Yale Political Science Department, and a founding member of [Bright Line Watch](https://brightlinewatch.org/).
+
+My latest book, forthcoming in 2025, is entitled [*Trash-Talking Democracy: Why Leaders Erode Their Democracies and How to Stop Them*](book-trashtalk.html). It offers an explanation for the wave of democratic erosion or backsliding that has affected many countries in the early 21st century, including the United States, several European countries, and others in the Global South. I identify factors that put democracies at risk. I also suggest strategies for resisting erosion and for repairing democratic institutions after backsliding leaders are no longer in power. *Trash-Talking Democracy* uses state-of-the-art social science techniques and data, but is written so as to be accessible to students and the general public. 
+
+
