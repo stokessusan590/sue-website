@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 
 Click book cover for more information:
 
-[![](images/book-covers/trashtalk2.png){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-trashtalk.html)
+[![](images/book-covers/trashtalk3.png){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-trashtalk.html)
 [![](images/book-covers/whybother.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-whybother.html)
 [![](images/book-covers/brokers.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-brokers.html)
 [![](images/book-covers/skepticism.jpg){#id .class width=30% out.extra='style="float:right; padding:10px"'}](book-skepticism.html)
