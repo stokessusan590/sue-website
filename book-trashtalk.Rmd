@@ -9,7 +9,10 @@ knitr::opts_chunk$set(echo = FALSE)
 ```
 
 by Susan C. Stokes <br/>
-Forthcoming
+Princeton University Press, forthcoming
+
+[Purchase here](https://www.amazon.com/Backsliders-Leaders-Undermine-Their-Democracies/dp/0691271542/ref=sr_1_2?crid=TCHB9OLMROM)
+
 
 **Why democracy is under assault across the globe by the leaders entrusted to preserve it**
 
